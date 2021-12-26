@@ -88,3 +88,15 @@
         opacity: 0;
     }
 }
+
+@keyframes float {
+    0%{
+        bottom: -38%;
+    }
+    50%{
+        bottom: -35%;
+    }
+    100%{
+        bottom: -38%;
+    }
+}
