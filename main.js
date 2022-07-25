@@ -3,6 +3,7 @@ const mainSection = document.getElementById("main-section");
 const quote = document.getElementById("quote");
 
 
+
 quote.addEventListener("animationend", () => {     
         intro.remove();
         mainSection.style.display = "flex";
@@ -20,10 +21,12 @@ quote.addEventListener("animationend", () => {
             setTimeout(() => {     
         
                 mainSection.remove();
-            
+                
                 menu.style.display = "flex";
             }, 1900);
         })
 })
+
+
 
 
